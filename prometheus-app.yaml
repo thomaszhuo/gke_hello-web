@@ -36,7 +36,7 @@ spec:
         name: prometheus-test
         ports:
         - name: metrics
-          containerPort: 1234
+          containerPort: 80
         command:
         - "/main"
         - "--process-metrics"
